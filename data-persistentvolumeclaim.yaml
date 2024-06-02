@@ -10,9 +10,5 @@ spec:
     - ReadOnlyMany
   resources:
     requests:
-<<<<<<< HEAD
-      storage: 500Mi
-=======
       storage: 750Mi
->>>>>>> change-deploy
 status: {}
