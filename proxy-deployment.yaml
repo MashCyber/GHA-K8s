@@ -40,7 +40,7 @@ spec:
         io.kompose.service: proxy
     spec:
       containers:
-        - image: tjmash/web-alpine
+        - image: nginx:alpine
           name: proxy
           ports:
             - containerPort: 80
