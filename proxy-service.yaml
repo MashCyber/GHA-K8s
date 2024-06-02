@@ -10,7 +10,7 @@ metadata:
     kompose.service.healthcheck.readiness.timeout: 10s
     kompose.service.type: nodeport
     kompose.version: 1.26.0 (40646f47)
-    kompose.volume.size: 500Mi
+    kompose.volume.size: 750Mi
   creationTimestamp: null
   labels:
     io.kompose.service: proxy
