@@ -6,7 +6,7 @@ metadata:
     kompose.service.healthcheck.readiness.interval: 10s
     kompose.service.healthcheck.readiness.retries: "3"
     kompose.service.healthcheck.readiness.start_period: 30s
-    kompose.service.healthcheck.readiness.test: CMD curl -f "http://localhost:8080"
+    kompose.service.healthcheck.readiness.test: CMD curl -f "http://localhost:80"
     kompose.service.healthcheck.readiness.timeout: 10s
     kompose.service.type: nodeport
     kompose.version: 1.26.0 (40646f47)
